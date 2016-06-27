@@ -1,6 +1,6 @@
 # Ranking the Rankers
 
-![Ranking the Rankers](hockey/images/allfiverankers)
+![Ranking the Rankers](images/allfiverankers)
 
 “Ranking the Rankers” is a 7-piece series that quantifies past NHL draft rankings from various prognosticators based on player performance to date.
 
