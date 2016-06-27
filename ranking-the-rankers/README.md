@@ -1,7 +1,5 @@
 # Ranking the Rankers
 
-![Ranking the Rankers](/ranking-the-rankers/images/allfiverankers.png)
-
 “Ranking the Rankers” is a 7-piece series that quantifies past NHL draft rankings from various prognosticators based on player performance to date.
 
 [Part 1: Introduction](http://bluesteam.hockey/ranking-the-rankers-introduction/)
@@ -25,3 +23,5 @@ There is no shortage of NHL draft rankings. Bob McKenzie, Corey Pronman, Interna
 This series attempts to determine which of the above sets of draft rankings is best at predicting future NHL success (and which one you should hope your team follows on draft day).
 
 **Data via [Hockey Abstract](http://www.hockeyabstract.com/testimonials)**
+
+![Ranking the Rankers](/ranking-the-rankers/images/allfiverankers.png)
