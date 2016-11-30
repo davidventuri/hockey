@@ -1,0 +1,1500 @@
+
+
+
+<html><head><title>Stats.HockeyAnalysis.com NHL Team Stats 201213</title><link rel="stylesheet" type="text/css" href="style.css" /><meta name="author" content="HockeyAnalysis.com" /><meta name="description" content="The most complete database of advanced hockey stats" /><meta name="keywords" content="hockey, nhl, statistics, advanced stats, fancystats, corsi, fenwick, pdo, analytics" /></head></body><!-- BuySellAds Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- End BuySellAds Ad Code -->
+
+<div class="header"><br><table background-color=#000000><tr><td width=400><a href="index.php"><h1>Stats.HockeyAnalysis.com</h1></a><br><h3>The most complete database of advanced hockey stats</h3><br></td><td valign=top>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- stats.hockeyanalysis.com leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5068178113874808"
+     data-ad-slot="9146794890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</td></tr>
+</table>
+</div>
+<div class="content">
+<br>
+<center>
+<div id="tswcsstabs">
+<ul>
+<li><a href="index.php">Home</a></li>
+<li><a href="teamstats.php">Team Stats</a></li>
+<li><a href="ratings.php">Player Stats</a></li>
+<li><a href="players.php">Players</a></li>
+<!-- <li><a href="2013playoffs/index.php">Playoff Data</a></li> -->
+<li><a href="glossary.php">Glossary</a></li>
+<!-- <li><a href="about.php">About Ratings</a></li> -->
+<li><a href="faq.php">FAQ</a></li>
+<li><a href="http://www.hockeyanalysis.com">Blog</a></li>
+<!-- <li><a href="services.php">Services</a></li> -->
+<!-- <li><a href="advertise.php">Advertise</a></li> -->
+<li><a href="donate.php">Donate</a></li>
+</ul>
+</div>
+<div>
+<br>
+For a new modern interface to these <a href="http://www.puckalytics.com">Advanced NHL Statistics</a> visit <a href="http://www.puckalytics.com">Puckalytics.com</a>.
+</div>
+</center>
+</div>
+<br><br>
+
+
+	
+<form action="teamstats.php" method="get">
+<center>
+<h2>NHL Team Stats</h2>
+<table>
+<tr>
+<td width=250 align="right">
+     Season:
+     <select name="db" style="width: 180px">
+	<option value="201617"  >2016-17</option>
+	<option value="201516"  >2015-16</option>
+	<option value="201415"  >2014-15</option>
+	<option value="201314"  >2013-14</option>
+	<option value="201213" selected >2012-13</option>
+	<option value="201112"  >2011-12</option>
+	<option value="201011"  >2010-11</option>
+	<option value="200910"  >2009-10</option>
+	<option value="200809"  >2008-09</option>
+	<option value="200708"  >2007-08</option>
+	<option value="201517"  >2015-17 (2yr)</option>
+	<option value="201416"  >2014-16 (2yr)</option>
+	<option value="201315"  >2013-15 (2yr)</option>
+	<option value="201214"  >2012-14 (2yr)</option>
+	<option value="201113"  >2011-13 (2yr)</option>
+	<option value="201012"  >2010-12 (2yr)</option>
+	<option value="200911"  >2009-11 (2yr)</option>
+	<option value="200810"  >2008-10 (2yr)</option>
+	<option value="200709"  >2007-09 (2yr)</option>
+	<option value="201417"  >2014-17 (3yr)</option>
+	<option value="201316"  >2013-16 (3yr)</option>
+	<option value="201215"  >2012-15 (3yr)</option>
+	<option value="201114"  >2011-14 (3yr)</option>
+	<option value="201013"  >2010-13 (3yr)</option>
+	<option value="200912"  >2009-12 (3yr)</option>
+	<option value="200811"  >2008-11 (3yr)</option>
+	<option value="200710"  >2007-10 (3yr)</option>
+	<option value="201317"  >2013-17 (4yr)</option>
+	<option value="201216"  >2012-16 (4yr)</option>
+	<option value="201115"  >2011-15 (4yr)</option>
+	<option value="201014"  >2010-14 (4yr)</option>
+	<option value="200913"  >2009-13 (4yr)</option>
+	<option value="200812"  >2008-12 (4yr)</option>
+	<option value="200711"  >2007-11 (4yr)</option>
+	<option value="201116"  >2011-16 (5yr)</option>
+	<option value="201015"  >2010-15 (5yr)</option>
+	<option value="200914"  >2009-14 (5yr)</option>
+	<option value="200813"  >2008-13 (5yr)</option>
+	<option value="200712"  >2007-12 (5yr)</option>
+	<option value="201016"  >2010-16 (6yr)</option>
+	<option value="200915"  >2009-15 (6yr)</option>
+	<option value="200814"  >2008-14 (6yr)</option>
+	<option value="200713"  >2007-13 (6yr)</option>
+	<option value="200815"  >2008-15 (7yr)</option>
+	<option value="200714"  >2007-14 (7yr)</option>
+	<option value="200816"  >2008-16 (8yr)</option>
+	<option value="200715"  >2007-15 (8yr)</option>
+	<option value="200716"  >2007-16 (9yr)</option>
+	</select>
+</td><td width=250 align="right">
+     Situation:
+    <select name="sit" style="width: 180px">
+	<option value="5v5" selected >5 on 5</option>
+	<option value="5v5home"  >5 on 5 Home</option>
+	<option value="5v5road"  >5 on 5 Road</option>
+	<option value="5v5close"  >5 on 5, Close</option>
+	<option value="5v5close_home"  >5 on 5, Close Home</option>
+	<option value="5v5close_road"  >5 on 5, Close Road</option>
+	<option value="5v5tied"  >5 on 5, Tied</option>
+	<option value="5v5tied_home"  >5 on 5, Tied Home</option>
+	<option value="5v5tied_road"  >5 on 5, Tied Road</option>
+	<option value="5v5leading"  >5 on 5, Leading</option>
+	<option value="5v5leading_home"  >5 on 5, Leading Home</option>
+	<option value="5v5leading_road"  >5 on 5, Leading Road</option>
+	<option value="5v5trailing"  >5 on 5, Trailing</option>
+	<option value="5v5trailing_home"  >5 on 5, Trailing Home</option>
+	<option value="5v5trailing_road"  >5 on 5, Trailing Road</option>
+	<option value="5v5up1"  >5 on 5, Up 1</option>
+	<option value="5v5up2"  >5 on 5, Up 2+</option>
+	<option value="5v5down1"  >5 on 5, Down1</option>
+	<option value="5v5down2"  >5 on 5, Down2+</option>
+	<option value="4v4"  >4 on 4</option>
+	<option value="all"  >All Situations</option>
+
+	<option value="5v4"  >5 on 4 PP</option>
+	<option value="4v5"  >4 on 5 SH</option>
+	<option value="PP"  >All PP</option>
+	<option value="SH"  >All SH</option>
+
+	<option value="f10"  >5 on 5 (ZS Adj.)
+	<option value="5v5home_f10"  >5 on 5 Home (ZS Adj.)</option>
+	<option value="5v5road_f10"  >5 on 5 Road (ZS Adj.)</option>
+	<option value="5v5close_f10"  >5 on 5, Close (ZS Adj.)</option>
+	<option value="5v5tied_f10"  >5 on 5, Tied (ZS Adj.)</option>
+	<option value="5v5up1_f10"  >5 on 5, Up 1 (ZS Adj.)</option>
+	<option value="5v5up2_f10"  >5 on 5, Up 2+ (ZS Adj.)</option>
+	<option value="5v5down1_f10"  >5 on 5, Down1 (ZS Adj.)</option>
+	<option value="5v5down2_f10"  >5 on 5, Down2+ (ZS Adj.)</option>
+	<option value="5v5leading_f10"  >5 on 5, Leading (ZS Adj.)</option>
+	<option value="5v5trailing_f10"  >5 on 5, Trailing (ZS Adj.)</option>
+	</select>
+</td>
+</tr>
+</table>
+<input type="hidden" name="disp" value="1">
+<input type="hidden" name="sortdir" value="DESC">
+<input type="hidden" name="sort" value="GFPCT">
+<input type="submit" value="Update Team Stats" />
+<br><br>
+</center>
+</form>
+
+<table border=1 bgcolor=#aaaaaa>
+	<tr>
+	<th align=left>#</th>
+	<th align=left width=100><a href="teamstats.php?disp=1&db=201213&sit=5v5&sort=team&sortdir=DESC">Team</a> </th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=GP&sortdir=DESC >GP</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=toi&sortdir=DESC >TOI</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=GF&sortdir=DESC >GF</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=GA&sortdir=ASC >GA</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=GF60&sortdir=DESC >GF60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=GA60&sortdir=ASC >GA60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=GFPCT&sortdir=DESC >GF%</a></th>
+
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=SF&sortdir=DESC >SF</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=SA&sortdir=ASC >SA</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=SF60&sortdir=DESC >SF60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=SA60&sortdir=ASC >SA60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=SFPCT&sortdir=DESC >SF%</a></th>
+
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=FF&sortdir=DESC >FF</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=FA&sortdir=ASC >FA</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=FF60&sortdir=DESC >FF60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=FA60&sortdir=ASC >FA60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=FFPCT&sortdir=DESC >FF%</a></th>
+
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=CF&sortdir=DESC >CF</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=CA&sortdir=ASC >CA</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=CF60&sortdir=DESC >CF60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=CA60&sortdir=ASC >CA60</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=CFPCT&sortdir=DESC >CF%</a></th>
+
+
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=SHPCT&sortdir=DESC >Sh%</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=SVPCT&sortdir=DESC >Sv%</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=PDO&sortdir=DESC >PDO</a></th>
+
+
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=OZPCT&sortdir=DESC >OZFO%</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=DZPCT&sortdir=DESC >DZFO%</a></th>
+	<th width=45><a href=teamstats.php?disp=1&db=201213&sit=5v5&sort=NZPCT&sortdir=DESC >NZFO%</a></th>
+
+	</tr>
+
+
+
+<tr bgcolor=#eedddd>	<td>   1</td>
+	<td><strong>Anaheim</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2319:49</center></td>
+	<td><center>   89</center></td>
+	<td><center>   72</center></td>
+	<td><center>    2.30</center></td>
+	<td><center>    1.86</center></td>
+	<td><center>    55.3</center></td>
+
+	<td><center> 1036</center></td>
+	<td><center> 1029</center></td>
+	<td><center>    26.8</center></td>
+	<td><center>    26.6</center></td>
+	<td><center>    50.2</center></td>
+
+	<td><center> 1444</center></td>
+	<td><center> 1528</center></td>
+	<td><center>    37.3</center></td>
+	<td><center>    39.5</center></td>
+	<td><center>    48.6</center></td>
+
+	<td><center> 1970</center></td>
+	<td><center> 2138</center></td>
+	<td><center>    51.0</center></td>
+	<td><center>    55.3</center></td>
+	<td><center>    48.0</center></td>
+
+	<td><center>    8.59</center></td>
+	<td><center>   93.00</center></td>
+	<td><center>   101.6</center></td>
+
+	<td><center>  30.9</center></td>
+	<td><center>  32.2</center></td>
+	<td><center>  36.9</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>   2</td>
+	<td><strong>Arizona</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2265:28</center></td>
+	<td><center>   86</center></td>
+	<td><center>   81</center></td>
+	<td><center>    2.28</center></td>
+	<td><center>    2.15</center></td>
+	<td><center>    51.5</center></td>
+
+	<td><center> 1159</center></td>
+	<td><center> 1145</center></td>
+	<td><center>    30.7</center></td>
+	<td><center>    30.3</center></td>
+	<td><center>    50.3</center></td>
+
+	<td><center> 1646</center></td>
+	<td><center> 1597</center></td>
+	<td><center>    43.6</center></td>
+	<td><center>    42.3</center></td>
+	<td><center>    50.8</center></td>
+
+	<td><center> 2173</center></td>
+	<td><center> 2117</center></td>
+	<td><center>    57.6</center></td>
+	<td><center>    56.1</center></td>
+	<td><center>    50.7</center></td>
+
+	<td><center>    7.42</center></td>
+	<td><center>   92.93</center></td>
+	<td><center>   100.3</center></td>
+
+	<td><center>  33.9</center></td>
+	<td><center>  30.5</center></td>
+	<td><center>  35.6</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>   3</td>
+	<td><strong>Boston</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2324:00</center></td>
+	<td><center>   92</center></td>
+	<td><center>   74</center></td>
+	<td><center>    2.38</center></td>
+	<td><center>    1.91</center></td>
+	<td><center>    55.4</center></td>
+
+	<td><center> 1258</center></td>
+	<td><center> 1085</center></td>
+	<td><center>    32.5</center></td>
+	<td><center>    28.0</center></td>
+	<td><center>    53.7</center></td>
+
+	<td><center> 1751</center></td>
+	<td><center> 1489</center></td>
+	<td><center>    45.2</center></td>
+	<td><center>    38.4</center></td>
+	<td><center>    54.0</center></td>
+
+	<td><center> 2391</center></td>
+	<td><center> 2005</center></td>
+	<td><center>    61.7</center></td>
+	<td><center>    51.8</center></td>
+	<td><center>    54.4</center></td>
+
+	<td><center>    7.31</center></td>
+	<td><center>   93.18</center></td>
+	<td><center>   100.5</center></td>
+
+	<td><center>  31.8</center></td>
+	<td><center>  32.3</center></td>
+	<td><center>  35.8</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>   4</td>
+	<td><strong>Buffalo</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2236:19</center></td>
+	<td><center>   80</center></td>
+	<td><center>   88</center></td>
+	<td><center>    2.15</center></td>
+	<td><center>    2.36</center></td>
+	<td><center>    47.6</center></td>
+
+	<td><center> 1000</center></td>
+	<td><center> 1198</center></td>
+	<td><center>    26.8</center></td>
+	<td><center>    32.1</center></td>
+	<td><center>    45.5</center></td>
+
+	<td><center> 1348</center></td>
+	<td><center> 1661</center></td>
+	<td><center>    36.2</center></td>
+	<td><center>    44.6</center></td>
+	<td><center>    44.8</center></td>
+
+	<td><center> 1811</center></td>
+	<td><center> 2201</center></td>
+	<td><center>    48.6</center></td>
+	<td><center>    59.1</center></td>
+	<td><center>    45.1</center></td>
+
+	<td><center>    8.00</center></td>
+	<td><center>   92.65</center></td>
+	<td><center>   100.7</center></td>
+
+	<td><center>  30.7</center></td>
+	<td><center>  31.9</center></td>
+	<td><center>  37.4</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>   5</td>
+	<td><strong>Calgary</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2305:17</center></td>
+	<td><center>   82</center></td>
+	<td><center>  121</center></td>
+	<td><center>    2.13</center></td>
+	<td><center>    3.15</center></td>
+	<td><center>    40.4</center></td>
+
+	<td><center> 1038</center></td>
+	<td><center> 1128</center></td>
+	<td><center>    27.0</center></td>
+	<td><center>    29.4</center></td>
+	<td><center>    47.9</center></td>
+
+	<td><center> 1447</center></td>
+	<td><center> 1598</center></td>
+	<td><center>    37.7</center></td>
+	<td><center>    41.6</center></td>
+	<td><center>    47.5</center></td>
+
+	<td><center> 1950</center></td>
+	<td><center> 2163</center></td>
+	<td><center>    50.8</center></td>
+	<td><center>    56.3</center></td>
+	<td><center>    47.4</center></td>
+
+	<td><center>    7.90</center></td>
+	<td><center>   89.27</center></td>
+	<td><center>    97.2</center></td>
+
+	<td><center>  28.9</center></td>
+	<td><center>  35.5</center></td>
+	<td><center>  35.6</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>   6</td>
+	<td><strong>Carolina</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2268:18</center></td>
+	<td><center>   88</center></td>
+	<td><center>  104</center></td>
+	<td><center>    2.33</center></td>
+	<td><center>    2.75</center></td>
+	<td><center>    45.8</center></td>
+
+	<td><center> 1208</center></td>
+	<td><center> 1183</center></td>
+	<td><center>    32.0</center></td>
+	<td><center>    31.3</center></td>
+	<td><center>    50.5</center></td>
+
+	<td><center> 1712</center></td>
+	<td><center> 1671</center></td>
+	<td><center>    45.3</center></td>
+	<td><center>    44.2</center></td>
+	<td><center>    50.6</center></td>
+
+	<td><center> 2336</center></td>
+	<td><center> 2190</center></td>
+	<td><center>    61.8</center></td>
+	<td><center>    57.9</center></td>
+	<td><center>    51.6</center></td>
+
+	<td><center>    7.28</center></td>
+	<td><center>   91.21</center></td>
+	<td><center>    98.5</center></td>
+
+	<td><center>  33.9</center></td>
+	<td><center>  29.4</center></td>
+	<td><center>  36.6</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>   7</td>
+	<td><strong>Chicago</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2300:48</center></td>
+	<td><center>  105</center></td>
+	<td><center>   68</center></td>
+	<td><center>    2.74</center></td>
+	<td><center>    1.77</center></td>
+	<td><center>    60.7</center></td>
+
+	<td><center> 1171</center></td>
+	<td><center>  962</center></td>
+	<td><center>    30.5</center></td>
+	<td><center>    25.1</center></td>
+	<td><center>    54.9</center></td>
+
+	<td><center> 1565</center></td>
+	<td><center> 1285</center></td>
+	<td><center>    40.8</center></td>
+	<td><center>    33.5</center></td>
+	<td><center>    54.9</center></td>
+
+	<td><center> 2103</center></td>
+	<td><center> 1782</center></td>
+	<td><center>    54.8</center></td>
+	<td><center>    46.5</center></td>
+	<td><center>    54.1</center></td>
+
+	<td><center>    8.97</center></td>
+	<td><center>   92.93</center></td>
+	<td><center>   101.9</center></td>
+
+	<td><center>  34.5</center></td>
+	<td><center>  28.9</center></td>
+	<td><center>  36.6</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>   8</td>
+	<td><strong>Colorado</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2287:01</center></td>
+	<td><center>   79</center></td>
+	<td><center>   97</center></td>
+	<td><center>    2.07</center></td>
+	<td><center>    2.54</center></td>
+	<td><center>    44.9</center></td>
+
+	<td><center> 1118</center></td>
+	<td><center> 1129</center></td>
+	<td><center>    29.3</center></td>
+	<td><center>    29.6</center></td>
+	<td><center>    49.8</center></td>
+
+	<td><center> 1526</center></td>
+	<td><center> 1580</center></td>
+	<td><center>    40.0</center></td>
+	<td><center>    41.5</center></td>
+	<td><center>    49.1</center></td>
+
+	<td><center> 2073</center></td>
+	<td><center> 2170</center></td>
+	<td><center>    54.4</center></td>
+	<td><center>    56.9</center></td>
+	<td><center>    48.9</center></td>
+
+	<td><center>    7.07</center></td>
+	<td><center>   91.41</center></td>
+	<td><center>    98.5</center></td>
+
+	<td><center>  31.5</center></td>
+	<td><center>  31.7</center></td>
+	<td><center>  36.8</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>   9</td>
+	<td><strong>Columbus</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2294:48</center></td>
+	<td><center>   83</center></td>
+	<td><center>   79</center></td>
+	<td><center>    2.17</center></td>
+	<td><center>    2.07</center></td>
+	<td><center>    51.2</center></td>
+
+	<td><center>  953</center></td>
+	<td><center> 1129</center></td>
+	<td><center>    24.9</center></td>
+	<td><center>    29.5</center></td>
+	<td><center>    45.8</center></td>
+
+	<td><center> 1287</center></td>
+	<td><center> 1529</center></td>
+	<td><center>    33.6</center></td>
+	<td><center>    40.0</center></td>
+	<td><center>    45.7</center></td>
+
+	<td><center> 1811</center></td>
+	<td><center> 2030</center></td>
+	<td><center>    47.4</center></td>
+	<td><center>    53.1</center></td>
+	<td><center>    47.1</center></td>
+
+	<td><center>    8.71</center></td>
+	<td><center>   93.00</center></td>
+	<td><center>   101.7</center></td>
+
+	<td><center>  30.3</center></td>
+	<td><center>  32.5</center></td>
+	<td><center>  37.3</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  10</td>
+	<td><strong>Dallas</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2233:34</center></td>
+	<td><center>   92</center></td>
+	<td><center>   91</center></td>
+	<td><center>    2.47</center></td>
+	<td><center>    2.44</center></td>
+	<td><center>    50.3</center></td>
+
+	<td><center>  971</center></td>
+	<td><center> 1113</center></td>
+	<td><center>    26.1</center></td>
+	<td><center>    29.9</center></td>
+	<td><center>    46.6</center></td>
+
+	<td><center> 1407</center></td>
+	<td><center> 1578</center></td>
+	<td><center>    37.8</center></td>
+	<td><center>    42.4</center></td>
+	<td><center>    47.1</center></td>
+
+	<td><center> 1988</center></td>
+	<td><center> 2083</center></td>
+	<td><center>    53.4</center></td>
+	<td><center>    56.0</center></td>
+	<td><center>    48.8</center></td>
+
+	<td><center>    9.47</center></td>
+	<td><center>   91.82</center></td>
+	<td><center>   101.3</center></td>
+
+	<td><center>  30.0</center></td>
+	<td><center>  33.6</center></td>
+	<td><center>  36.4</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  11</td>
+	<td><strong>Detroit</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2252:30</center></td>
+	<td><center>   74</center></td>
+	<td><center>   67</center></td>
+	<td><center>    1.97</center></td>
+	<td><center>    1.78</center></td>
+	<td><center>    52.5</center></td>
+
+	<td><center> 1113</center></td>
+	<td><center> 1024</center></td>
+	<td><center>    29.6</center></td>
+	<td><center>    27.3</center></td>
+	<td><center>    52.1</center></td>
+
+	<td><center> 1563</center></td>
+	<td><center> 1365</center></td>
+	<td><center>    41.6</center></td>
+	<td><center>    36.4</center></td>
+	<td><center>    53.4</center></td>
+
+	<td><center> 2069</center></td>
+	<td><center> 1790</center></td>
+	<td><center>    55.1</center></td>
+	<td><center>    47.7</center></td>
+	<td><center>    53.6</center></td>
+
+	<td><center>    6.65</center></td>
+	<td><center>   93.46</center></td>
+	<td><center>   100.1</center></td>
+
+	<td><center>  37.0</center></td>
+	<td><center>  28.5</center></td>
+	<td><center>  34.5</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  12</td>
+	<td><strong>Edmonton</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2244:08</center></td>
+	<td><center>   80</center></td>
+	<td><center>   90</center></td>
+	<td><center>    2.14</center></td>
+	<td><center>    2.41</center></td>
+	<td><center>    47.1</center></td>
+
+	<td><center>  990</center></td>
+	<td><center> 1205</center></td>
+	<td><center>    26.5</center></td>
+	<td><center>    32.2</center></td>
+	<td><center>    45.1</center></td>
+
+	<td><center> 1379</center></td>
+	<td><center> 1680</center></td>
+	<td><center>    36.9</center></td>
+	<td><center>    44.9</center></td>
+	<td><center>    45.1</center></td>
+
+	<td><center> 1816</center></td>
+	<td><center> 2262</center></td>
+	<td><center>    48.6</center></td>
+	<td><center>    60.5</center></td>
+	<td><center>    44.5</center></td>
+
+	<td><center>    8.08</center></td>
+	<td><center>   92.53</center></td>
+	<td><center>   100.6</center></td>
+
+	<td><center>  29.7</center></td>
+	<td><center>  33.1</center></td>
+	<td><center>  37.2</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  13</td>
+	<td><strong>Florida</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2338:09</center></td>
+	<td><center>   64</center></td>
+	<td><center>  116</center></td>
+	<td><center>    1.64</center></td>
+	<td><center>    2.98</center></td>
+	<td><center>    35.6</center></td>
+
+	<td><center> 1109</center></td>
+	<td><center> 1199</center></td>
+	<td><center>    28.5</center></td>
+	<td><center>    30.8</center></td>
+	<td><center>    48.1</center></td>
+
+	<td><center> 1526</center></td>
+	<td><center> 1626</center></td>
+	<td><center>    39.2</center></td>
+	<td><center>    41.7</center></td>
+	<td><center>    48.4</center></td>
+
+	<td><center> 2046</center></td>
+	<td><center> 2119</center></td>
+	<td><center>    52.5</center></td>
+	<td><center>    54.4</center></td>
+	<td><center>    49.1</center></td>
+
+	<td><center>    5.77</center></td>
+	<td><center>   90.33</center></td>
+	<td><center>    96.1</center></td>
+
+	<td><center>  33.9</center></td>
+	<td><center>  27.3</center></td>
+	<td><center>  38.9</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  14</td>
+	<td><strong>Los Angeles</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2282:25</center></td>
+	<td><center>   86</center></td>
+	<td><center>   79</center></td>
+	<td><center>    2.26</center></td>
+	<td><center>    2.08</center></td>
+	<td><center>    52.1</center></td>
+
+	<td><center> 1133</center></td>
+	<td><center>  927</center></td>
+	<td><center>    29.8</center></td>
+	<td><center>    24.4</center></td>
+	<td><center>    55.0</center></td>
+
+	<td><center> 1638</center></td>
+	<td><center> 1305</center></td>
+	<td><center>    43.1</center></td>
+	<td><center>    34.3</center></td>
+	<td><center>    55.7</center></td>
+
+	<td><center> 2174</center></td>
+	<td><center> 1685</center></td>
+	<td><center>    57.1</center></td>
+	<td><center>    44.3</center></td>
+	<td><center>    56.3</center></td>
+
+	<td><center>    7.59</center></td>
+	<td><center>   91.48</center></td>
+	<td><center>    99.1</center></td>
+
+	<td><center>  36.0</center></td>
+	<td><center>  28.8</center></td>
+	<td><center>  35.2</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  15</td>
+	<td><strong>Minnesota</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2269:22</center></td>
+	<td><center>   79</center></td>
+	<td><center>   89</center></td>
+	<td><center>    2.09</center></td>
+	<td><center>    2.35</center></td>
+	<td><center>    47.0</center></td>
+
+	<td><center> 1024</center></td>
+	<td><center> 1025</center></td>
+	<td><center>    27.1</center></td>
+	<td><center>    27.1</center></td>
+	<td><center>    50.0</center></td>
+
+	<td><center> 1399</center></td>
+	<td><center> 1436</center></td>
+	<td><center>    37.0</center></td>
+	<td><center>    38.0</center></td>
+	<td><center>    49.3</center></td>
+
+	<td><center> 1882</center></td>
+	<td><center> 1924</center></td>
+	<td><center>    49.8</center></td>
+	<td><center>    50.9</center></td>
+	<td><center>    49.4</center></td>
+
+	<td><center>    7.71</center></td>
+	<td><center>   91.32</center></td>
+	<td><center>    99.0</center></td>
+
+	<td><center>  31.2</center></td>
+	<td><center>  32.3</center></td>
+	<td><center>  36.4</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  16</td>
+	<td><strong>Montreal</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2187:02</center></td>
+	<td><center>   97</center></td>
+	<td><center>   77</center></td>
+	<td><center>    2.66</center></td>
+	<td><center>    2.11</center></td>
+	<td><center>    55.7</center></td>
+
+	<td><center> 1091</center></td>
+	<td><center>  969</center></td>
+	<td><center>    29.9</center></td>
+	<td><center>    26.6</center></td>
+	<td><center>    53.0</center></td>
+
+	<td><center> 1534</center></td>
+	<td><center> 1331</center></td>
+	<td><center>    42.1</center></td>
+	<td><center>    36.5</center></td>
+	<td><center>    53.5</center></td>
+
+	<td><center> 2114</center></td>
+	<td><center> 1885</center></td>
+	<td><center>    58.0</center></td>
+	<td><center>    51.7</center></td>
+	<td><center>    52.9</center></td>
+
+	<td><center>    8.89</center></td>
+	<td><center>   92.05</center></td>
+	<td><center>   100.9</center></td>
+
+	<td><center>  31.3</center></td>
+	<td><center>  29.8</center></td>
+	<td><center>  38.9</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  17</td>
+	<td><strong>Nashville</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2331:20</center></td>
+	<td><center>   74</center></td>
+	<td><center>   83</center></td>
+	<td><center>    1.90</center></td>
+	<td><center>    2.14</center></td>
+	<td><center>    47.1</center></td>
+
+	<td><center>  978</center></td>
+	<td><center> 1054</center></td>
+	<td><center>    25.2</center></td>
+	<td><center>    27.1</center></td>
+	<td><center>    48.1</center></td>
+
+	<td><center> 1342</center></td>
+	<td><center> 1489</center></td>
+	<td><center>    34.5</center></td>
+	<td><center>    38.3</center></td>
+	<td><center>    47.4</center></td>
+
+	<td><center> 1798</center></td>
+	<td><center> 2051</center></td>
+	<td><center>    46.3</center></td>
+	<td><center>    52.8</center></td>
+	<td><center>    46.7</center></td>
+
+	<td><center>    7.57</center></td>
+	<td><center>   92.13</center></td>
+	<td><center>    99.7</center></td>
+
+	<td><center>  28.4</center></td>
+	<td><center>  36.8</center></td>
+	<td><center>  34.8</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  18</td>
+	<td><strong>New Jersey</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2251:24</center></td>
+	<td><center>   63</center></td>
+	<td><center>   74</center></td>
+	<td><center>    1.68</center></td>
+	<td><center>    1.97</center></td>
+	<td><center>    46.0</center></td>
+
+	<td><center>  996</center></td>
+	<td><center>  841</center></td>
+	<td><center>    26.5</center></td>
+	<td><center>    22.4</center></td>
+	<td><center>    54.2</center></td>
+
+	<td><center> 1416</center></td>
+	<td><center> 1127</center></td>
+	<td><center>    37.7</center></td>
+	<td><center>    30.0</center></td>
+	<td><center>    55.7</center></td>
+
+	<td><center> 1896</center></td>
+	<td><center> 1495</center></td>
+	<td><center>    50.5</center></td>
+	<td><center>    39.8</center></td>
+	<td><center>    55.9</center></td>
+
+	<td><center>    6.33</center></td>
+	<td><center>   91.20</center></td>
+	<td><center>    97.5</center></td>
+
+	<td><center>  30.6</center></td>
+	<td><center>  27.9</center></td>
+	<td><center>  41.5</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  19</td>
+	<td><strong>NY Islanders</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2350:17</center></td>
+	<td><center>   94</center></td>
+	<td><center>   96</center></td>
+	<td><center>    2.40</center></td>
+	<td><center>    2.45</center></td>
+	<td><center>    49.5</center></td>
+
+	<td><center> 1173</center></td>
+	<td><center> 1059</center></td>
+	<td><center>    29.9</center></td>
+	<td><center>    27.0</center></td>
+	<td><center>    52.6</center></td>
+
+	<td><center> 1588</center></td>
+	<td><center> 1539</center></td>
+	<td><center>    40.5</center></td>
+	<td><center>    39.3</center></td>
+	<td><center>    50.8</center></td>
+
+	<td><center> 2169</center></td>
+	<td><center> 2174</center></td>
+	<td><center>    55.4</center></td>
+	<td><center>    55.5</center></td>
+	<td><center>    49.9</center></td>
+
+	<td><center>    8.01</center></td>
+	<td><center>   90.93</center></td>
+	<td><center>    98.9</center></td>
+
+	<td><center>  31.5</center></td>
+	<td><center>  29.7</center></td>
+	<td><center>  38.8</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  20</td>
+	<td><strong>NY Rangers</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2328:54</center></td>
+	<td><center>   90</center></td>
+	<td><center>   67</center></td>
+	<td><center>    2.32</center></td>
+	<td><center>    1.73</center></td>
+	<td><center>    57.3</center></td>
+
+	<td><center> 1214</center></td>
+	<td><center> 1033</center></td>
+	<td><center>    31.3</center></td>
+	<td><center>    26.6</center></td>
+	<td><center>    54.0</center></td>
+
+	<td><center> 1674</center></td>
+	<td><center> 1456</center></td>
+	<td><center>    43.1</center></td>
+	<td><center>    37.5</center></td>
+	<td><center>    53.5</center></td>
+
+	<td><center> 2253</center></td>
+	<td><center> 2081</center></td>
+	<td><center>    58.0</center></td>
+	<td><center>    53.6</center></td>
+	<td><center>    52.0</center></td>
+
+	<td><center>    7.41</center></td>
+	<td><center>   93.51</center></td>
+	<td><center>   100.9</center></td>
+
+	<td><center>  34.9</center></td>
+	<td><center>  29.5</center></td>
+	<td><center>  35.6</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  21</td>
+	<td><strong>Ottawa</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2244:00</center></td>
+	<td><center>   73</center></td>
+	<td><center>   73</center></td>
+	<td><center>    1.95</center></td>
+	<td><center>    1.95</center></td>
+	<td><center>    50.0</center></td>
+
+	<td><center> 1214</center></td>
+	<td><center> 1112</center></td>
+	<td><center>    32.5</center></td>
+	<td><center>    29.7</center></td>
+	<td><center>    52.2</center></td>
+
+	<td><center> 1682</center></td>
+	<td><center> 1509</center></td>
+	<td><center>    45.0</center></td>
+	<td><center>    40.3</center></td>
+	<td><center>    52.7</center></td>
+
+	<td><center> 2304</center></td>
+	<td><center> 1994</center></td>
+	<td><center>    61.6</center></td>
+	<td><center>    53.3</center></td>
+	<td><center>    53.6</center></td>
+
+	<td><center>    6.01</center></td>
+	<td><center>   93.44</center></td>
+	<td><center>    99.4</center></td>
+
+	<td><center>  34.6</center></td>
+	<td><center>  28.6</center></td>
+	<td><center>  36.8</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  22</td>
+	<td><strong>Philadelphia</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2201:54</center></td>
+	<td><center>   81</center></td>
+	<td><center>   95</center></td>
+	<td><center>    2.21</center></td>
+	<td><center>    2.59</center></td>
+	<td><center>    46.0</center></td>
+
+	<td><center> 1024</center></td>
+	<td><center> 1059</center></td>
+	<td><center>    27.9</center></td>
+	<td><center>    28.9</center></td>
+	<td><center>    49.2</center></td>
+
+	<td><center> 1417</center></td>
+	<td><center> 1546</center></td>
+	<td><center>    38.6</center></td>
+	<td><center>    42.1</center></td>
+	<td><center>    47.8</center></td>
+
+	<td><center> 1943</center></td>
+	<td><center> 2139</center></td>
+	<td><center>    52.9</center></td>
+	<td><center>    58.3</center></td>
+	<td><center>    47.6</center></td>
+
+	<td><center>    7.91</center></td>
+	<td><center>   91.03</center></td>
+	<td><center>    98.9</center></td>
+
+	<td><center>  27.0</center></td>
+	<td><center>  33.5</center></td>
+	<td><center>  39.5</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  23</td>
+	<td><strong>Pittsburgh</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2263:24</center></td>
+	<td><center>  107</center></td>
+	<td><center>   74</center></td>
+	<td><center>    2.84</center></td>
+	<td><center>    1.96</center></td>
+	<td><center>    59.1</center></td>
+
+	<td><center> 1109</center></td>
+	<td><center> 1106</center></td>
+	<td><center>    29.4</center></td>
+	<td><center>    29.3</center></td>
+	<td><center>    50.1</center></td>
+
+	<td><center> 1528</center></td>
+	<td><center> 1533</center></td>
+	<td><center>    40.5</center></td>
+	<td><center>    40.6</center></td>
+	<td><center>    49.9</center></td>
+
+	<td><center> 2040</center></td>
+	<td><center> 2120</center></td>
+	<td><center>    54.1</center></td>
+	<td><center>    56.2</center></td>
+	<td><center>    49.0</center></td>
+
+	<td><center>    9.65</center></td>
+	<td><center>   93.31</center></td>
+	<td><center>   103.0</center></td>
+
+	<td><center>  29.6</center></td>
+	<td><center>  32.3</center></td>
+	<td><center>  38.0</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  24</td>
+	<td><strong>San Jose</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2306:50</center></td>
+	<td><center>   77</center></td>
+	<td><center>   76</center></td>
+	<td><center>    2.00</center></td>
+	<td><center>    1.98</center></td>
+	<td><center>    50.3</center></td>
+
+	<td><center> 1151</center></td>
+	<td><center> 1071</center></td>
+	<td><center>    29.9</center></td>
+	<td><center>    27.9</center></td>
+	<td><center>    51.8</center></td>
+
+	<td><center> 1644</center></td>
+	<td><center> 1520</center></td>
+	<td><center>    42.8</center></td>
+	<td><center>    39.5</center></td>
+	<td><center>    52.0</center></td>
+
+	<td><center> 2256</center></td>
+	<td><center> 2144</center></td>
+	<td><center>    58.7</center></td>
+	<td><center>    55.8</center></td>
+	<td><center>    51.3</center></td>
+
+	<td><center>    6.69</center></td>
+	<td><center>   92.90</center></td>
+	<td><center>    99.6</center></td>
+
+	<td><center>  32.8</center></td>
+	<td><center>  32.5</center></td>
+	<td><center>  34.7</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  25</td>
+	<td><strong>St. Louis</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2269:35</center></td>
+	<td><center>   81</center></td>
+	<td><center>   76</center></td>
+	<td><center>    2.14</center></td>
+	<td><center>    2.01</center></td>
+	<td><center>    51.6</center></td>
+
+	<td><center> 1041</center></td>
+	<td><center>  894</center></td>
+	<td><center>    27.5</center></td>
+	<td><center>    23.6</center></td>
+	<td><center>    53.8</center></td>
+
+	<td><center> 1454</center></td>
+	<td><center> 1267</center></td>
+	<td><center>    38.4</center></td>
+	<td><center>    33.5</center></td>
+	<td><center>    53.4</center></td>
+
+	<td><center> 1948</center></td>
+	<td><center> 1784</center></td>
+	<td><center>    51.5</center></td>
+	<td><center>    47.2</center></td>
+	<td><center>    52.2</center></td>
+
+	<td><center>    7.78</center></td>
+	<td><center>   91.50</center></td>
+	<td><center>    99.3</center></td>
+
+	<td><center>  33.5</center></td>
+	<td><center>  31.6</center></td>
+	<td><center>  34.9</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  26</td>
+	<td><strong>Tampa Bay</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2281:10</center></td>
+	<td><center>  102</center></td>
+	<td><center>   97</center></td>
+	<td><center>    2.68</center></td>
+	<td><center>    2.55</center></td>
+	<td><center>    51.3</center></td>
+
+	<td><center> 1050</center></td>
+	<td><center> 1143</center></td>
+	<td><center>    27.6</center></td>
+	<td><center>    30.1</center></td>
+	<td><center>    47.9</center></td>
+
+	<td><center> 1450</center></td>
+	<td><center> 1624</center></td>
+	<td><center>    38.1</center></td>
+	<td><center>    42.7</center></td>
+	<td><center>    47.2</center></td>
+
+	<td><center> 1920</center></td>
+	<td><center> 2150</center></td>
+	<td><center>    50.5</center></td>
+	<td><center>    56.5</center></td>
+	<td><center>    47.2</center></td>
+
+	<td><center>    9.71</center></td>
+	<td><center>   91.51</center></td>
+	<td><center>   101.2</center></td>
+
+	<td><center>  28.5</center></td>
+	<td><center>  32.1</center></td>
+	<td><center>  39.4</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  27</td>
+	<td><strong>Toronto</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2272:01</center></td>
+	<td><center>  103</center></td>
+	<td><center>   95</center></td>
+	<td><center>    2.72</center></td>
+	<td><center>    2.51</center></td>
+	<td><center>    52.0</center></td>
+
+	<td><center>  974</center></td>
+	<td><center> 1249</center></td>
+	<td><center>    25.7</center></td>
+	<td><center>    33.0</center></td>
+	<td><center>    43.8</center></td>
+
+	<td><center> 1395</center></td>
+	<td><center> 1779</center></td>
+	<td><center>    36.8</center></td>
+	<td><center>    47.0</center></td>
+	<td><center>    44.0</center></td>
+
+	<td><center> 1927</center></td>
+	<td><center> 2445</center></td>
+	<td><center>    50.9</center></td>
+	<td><center>    64.6</center></td>
+	<td><center>    44.1</center></td>
+
+	<td><center>   10.57</center></td>
+	<td><center>   92.39</center></td>
+	<td><center>   103.0</center></td>
+
+	<td><center>  26.8</center></td>
+	<td><center>  35.6</center></td>
+	<td><center>  37.7</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#ddddee>	<td>  28</td>
+	<td><strong>Vancouver</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2257:43</center></td>
+	<td><center>   82</center></td>
+	<td><center>   80</center></td>
+	<td><center>    2.18</center></td>
+	<td><center>    2.13</center></td>
+	<td><center>    50.6</center></td>
+
+	<td><center> 1031</center></td>
+	<td><center> 1072</center></td>
+	<td><center>    27.4</center></td>
+	<td><center>    28.5</center></td>
+	<td><center>    49.0</center></td>
+
+	<td><center> 1454</center></td>
+	<td><center> 1438</center></td>
+	<td><center>    38.6</center></td>
+	<td><center>    38.2</center></td>
+	<td><center>    50.3</center></td>
+
+	<td><center> 1991</center></td>
+	<td><center> 1879</center></td>
+	<td><center>    52.9</center></td>
+	<td><center>    49.9</center></td>
+	<td><center>    51.4</center></td>
+
+	<td><center>    7.95</center></td>
+	<td><center>   92.54</center></td>
+	<td><center>   100.5</center></td>
+
+	<td><center>  32.5</center></td>
+	<td><center>  31.8</center></td>
+	<td><center>  35.7</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  29</td>
+	<td><strong>Washington</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2289:45</center></td>
+	<td><center>   91</center></td>
+	<td><center>   85</center></td>
+	<td><center>    2.38</center></td>
+	<td><center>    2.23</center></td>
+	<td><center>    51.7</center></td>
+
+	<td><center> 1058</center></td>
+	<td><center> 1180</center></td>
+	<td><center>    27.7</center></td>
+	<td><center>    30.9</center></td>
+	<td><center>    47.3</center></td>
+
+	<td><center> 1479</center></td>
+	<td><center> 1563</center></td>
+	<td><center>    38.8</center></td>
+	<td><center>    41.0</center></td>
+	<td><center>    48.6</center></td>
+
+	<td><center> 2043</center></td>
+	<td><center> 2150</center></td>
+	<td><center>    53.5</center></td>
+	<td><center>    56.3</center></td>
+	<td><center>    48.7</center></td>
+
+	<td><center>    8.60</center></td>
+	<td><center>   92.80</center></td>
+	<td><center>   101.4</center></td>
+
+	<td><center>  30.5</center></td>
+	<td><center>  34.0</center></td>
+	<td><center>  35.5</center></td>
+	</tr>
+
+
+
+
+<tr bgcolor=#eedddd>	<td>  30</td>
+	<td><strong>Winnipeg</strong></td>
+	<td><center>   48</center></td>
+	<td><center>    2354:43</center></td>
+	<td><center>   91</center></td>
+	<td><center>  101</center></td>
+	<td><center>    2.32</center></td>
+	<td><center>    2.57</center></td>
+	<td><center>    47.4</center></td>
+
+	<td><center> 1095</center></td>
+	<td><center> 1157</center></td>
+	<td><center>    27.9</center></td>
+	<td><center>    29.5</center></td>
+	<td><center>    48.6</center></td>
+
+	<td><center> 1596</center></td>
+	<td><center> 1642</center></td>
+	<td><center>    40.7</center></td>
+	<td><center>    41.8</center></td>
+	<td><center>    49.3</center></td>
+
+	<td><center> 2194</center></td>
+	<td><center> 2239</center></td>
+	<td><center>    55.9</center></td>
+	<td><center>    57.1</center></td>
+	<td><center>    49.5</center></td>
+
+	<td><center>    8.31</center></td>
+	<td><center>   91.27</center></td>
+	<td><center>    99.6</center></td>
+
+	<td><center>  30.8</center></td>
+	<td><center>  31.8</center></td>
+	<td><center>  37.5</center></td>
+	</tr>
+
+
+
+ 
+</table>
+<br>
+<h3>Legend</h2>
+TOI = Time on ice<br>
+GF = Goals For<br>
+GA = Goals Against<br>
+GF60 = Goals For per 60 minutes of ice time<br>
+GA60 = Goals Against per 60 minutes of ice time<br>
+GF% = Goals For percentage = 100* GF / (GF + GA)<br>
+SF = Shots For<br>
+SA = Shots Against<br>
+SF60 = Shots For per 60 minutes of ice time<br>
+SA60 = Shots Against per 60 minutes of ice time<br>
+SF% = Shots For percentage = 100* SF / (SF + SA)<br>
+Fenwick = Shots + shots attempts that missed the net<br>
+FF = Fenwick For<br>
+FA = Fenwick Against<br>
+FF60 = Fenwick For per 60 minutes of ice time<br>
+FA60 = Fenwick Against per 60 minutes of ice time<br>
+FF% = Fenwick For percentage = 100* FF / (FF + FA)<br>
+Corsi = Shots + shots attempts that missed the net + shot attempts that were blocked<br>
+CF = Corsi For<br>
+CA = Corsi Against<br>
+CF60 = Corsi For per 60 minutes of ice time<br>
+CA60 = Corsi Against per 60 minutes of ice time<br>
+CF% = Corsi For percentage = 100* CF / (CF + CA)<br>
+Sh% = Shooting Percentage<br>
+Sv% = Save Percentage<br>
+PDO = Sh% + Sv%<br>
+OZFO% = Percentage of face offs that took place in the offensive zone<br>
+DZFO% = Percentage of face offs that took place in the defensive zone<br>
+NZFO% = Percentage of face offs that took place in the neutral zone<br>
+
+</div>
+
+<div style="footer">
+<br>
+<center><strong>Barring unexpected glitches statistics should get updated nightly.</strong></center>
+<center>HockeyAnalysis.com offers no guarantee of the accuracy of the stats presented on this website. Use at your own risk.</center>
+<center>HockeyAnalysis.com by David Johnson </center>
+<center>� Copyright 2016</center>
+
+<br>
+</div>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3136190; 
+var sc_invisible=1; 
+var sc_security="b6f5a80d"; 
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+class="statcounter"><a title="counter for tumblr"
+href="http://statcounter.com/tumblr/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/3136190/0/b6f5a80d/1/"
+alt="counter for tumblr" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38106622-1']);
+  _gaq.push(['_setDomainName', 'hockeyanalysis.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Google Analytics -->
+
+
+
+
+</body>
+</html>
+
+

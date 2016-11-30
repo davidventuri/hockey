@@ -1,0 +1,964 @@
+<table border="1" bgcolor="#aaaaaa">
+<tr>
+<th align="left">#</th>
+<th align="left" width="100"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=team&amp;sortdir=DESC">Team</a> </th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=GP&amp;sortdir=DESC">GP</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=toi&amp;sortdir=DESC">TOI</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=GF&amp;sortdir=DESC">GF</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=GA&amp;sortdir=ASC">GA</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=GF60&amp;sortdir=DESC">GF60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=GA60&amp;sortdir=ASC">GA60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=GFPCT&amp;sortdir=DESC">GF%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=SF&amp;sortdir=DESC">SF</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=SA&amp;sortdir=ASC">SA</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=SF60&amp;sortdir=DESC">SF60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=SA60&amp;sortdir=ASC">SA60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=SFPCT&amp;sortdir=DESC">SF%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=FF&amp;sortdir=DESC">FF</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=FA&amp;sortdir=ASC">FA</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=FF60&amp;sortdir=DESC">FF60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=FA60&amp;sortdir=ASC">FA60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=FFPCT&amp;sortdir=DESC">FF%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=CF&amp;sortdir=DESC">CF</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=CA&amp;sortdir=ASC">CA</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=CF60&amp;sortdir=DESC">CF60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=CA60&amp;sortdir=ASC">CA60</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=CFPCT&amp;sortdir=DESC">CF%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=SHPCT&amp;sortdir=DESC">Sh%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=SVPCT&amp;sortdir=DESC">Sv%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=PDO&amp;sortdir=DESC">PDO</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=OZPCT&amp;sortdir=DESC">OZFO%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=DZPCT&amp;sortdir=DESC">DZFO%</a></th>
+<th width="45"><a href="teamstats.php?disp=1&amp;db=201415&amp;sit=5v5&amp;sort=NZPCT&amp;sortdir=DESC">NZFO%</a></th>
+</tr>
+<tr bgcolor="#eedddd"> <td>   1</td>
+<td><strong>Anaheim</strong></td>
+<td><center>   82</center></td>
+<td><center>    3902:02</center></td>
+<td><center>  157</center></td>
+<td><center>  147</center></td>
+<td><center>    2.41</center></td>
+<td><center>    2.26</center></td>
+<td><center>    51.6</center></td>
+<td><center> 1861</center></td>
+<td><center> 1820</center></td>
+<td><center>    28.6</center></td>
+<td><center>    28.0</center></td>
+<td><center>    50.6</center></td>
+<td><center> 2729</center></td>
+<td><center> 2571</center></td>
+<td><center>    42.0</center></td>
+<td><center>    39.5</center></td>
+<td><center>    51.5</center></td>
+<td><center> 3608</center></td>
+<td><center> 3472</center></td>
+<td><center>    55.5</center></td>
+<td><center>    53.4</center></td>
+<td><center>    51.0</center></td>
+<td><center>    8.44</center></td>
+<td><center>   91.92</center></td>
+<td><center>   100.4</center></td>
+<td><center>  31.7</center></td>
+<td><center>  32.0</center></td>
+<td><center>  36.3</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>   2</td>
+<td><strong>Arizona</strong></td>
+<td><center>   82</center></td>
+<td><center>    3947:11</center></td>
+<td><center>  106</center></td>
+<td><center>  173</center></td>
+<td><center>    1.61</center></td>
+<td><center>    2.63</center></td>
+<td><center>    38.0</center></td>
+<td><center> 1852</center></td>
+<td><center> 2040</center></td>
+<td><center>    28.2</center></td>
+<td><center>    31.0</center></td>
+<td><center>    47.6</center></td>
+<td><center> 2628</center></td>
+<td><center> 2853</center></td>
+<td><center>    39.9</center></td>
+<td><center>    43.4</center></td>
+<td><center>    47.9</center></td>
+<td><center> 3612</center></td>
+<td><center> 3812</center></td>
+<td><center>    54.9</center></td>
+<td><center>    57.9</center></td>
+<td><center>    48.7</center></td>
+<td><center>    5.72</center></td>
+<td><center>   91.52</center></td>
+<td><center>    97.2</center></td>
+<td><center>  31.5</center></td>
+<td><center>  32.3</center></td>
+<td><center>  36.2</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>   3</td>
+<td><strong>Boston</strong></td>
+<td><center>   82</center></td>
+<td><center>    4014:19</center></td>
+<td><center>  140</center></td>
+<td><center>  136</center></td>
+<td><center>    2.09</center></td>
+<td><center>    2.03</center></td>
+<td><center>    50.7</center></td>
+<td><center> 1966</center></td>
+<td><center> 1939</center></td>
+<td><center>    29.4</center></td>
+<td><center>    29.0</center></td>
+<td><center>    50.3</center></td>
+<td><center> 2726</center></td>
+<td><center> 2658</center></td>
+<td><center>    40.7</center></td>
+<td><center>    39.7</center></td>
+<td><center>    50.6</center></td>
+<td><center> 3729</center></td>
+<td><center> 3484</center></td>
+<td><center>    55.7</center></td>
+<td><center>    52.1</center></td>
+<td><center>    51.7</center></td>
+<td><center>    7.12</center></td>
+<td><center>   92.99</center></td>
+<td><center>   100.1</center></td>
+<td><center>  32.5</center></td>
+<td><center>  32.6</center></td>
+<td><center>  34.9</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>   4</td>
+<td><strong>Buffalo</strong></td>
+<td><center>   82</center></td>
+<td><center>    3978:49</center></td>
+<td><center>  109</center></td>
+<td><center>  174</center></td>
+<td><center>    1.64</center></td>
+<td><center>    2.62</center></td>
+<td><center>    38.5</center></td>
+<td><center> 1527</center></td>
+<td><center> 2293</center></td>
+<td><center>    23.0</center></td>
+<td><center>    34.6</center></td>
+<td><center>    40.0</center></td>
+<td><center> 2038</center></td>
+<td><center> 3219</center></td>
+<td><center>    30.7</center></td>
+<td><center>    48.5</center></td>
+<td><center>    38.8</center></td>
+<td><center> 2678</center></td>
+<td><center> 4468</center></td>
+<td><center>    40.4</center></td>
+<td><center>    67.4</center></td>
+<td><center>    37.5</center></td>
+<td><center>    7.14</center></td>
+<td><center>   92.41</center></td>
+<td><center>    99.5</center></td>
+<td><center>  26.5</center></td>
+<td><center>  39.2</center></td>
+<td><center>  34.3</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>   5</td>
+<td><strong>Calgary</strong></td>
+<td><center>   82</center></td>
+<td><center>    3981:48</center></td>
+<td><center>  150</center></td>
+<td><center>  154</center></td>
+<td><center>    2.26</center></td>
+<td><center>    2.32</center></td>
+<td><center>    49.3</center></td>
+<td><center> 1689</center></td>
+<td><center> 1962</center></td>
+<td><center>    25.5</center></td>
+<td><center>    29.6</center></td>
+<td><center>    46.3</center></td>
+<td><center> 2376</center></td>
+<td><center> 2817</center></td>
+<td><center>    35.8</center></td>
+<td><center>    42.4</center></td>
+<td><center>    45.8</center></td>
+<td><center> 3321</center></td>
+<td><center> 4149</center></td>
+<td><center>    50.0</center></td>
+<td><center>    62.5</center></td>
+<td><center>    44.5</center></td>
+<td><center>    8.88</center></td>
+<td><center>   92.15</center></td>
+<td><center>   101.0</center></td>
+<td><center>  29.5</center></td>
+<td><center>  35.8</center></td>
+<td><center>  34.6</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>   6</td>
+<td><strong>Carolina</strong></td>
+<td><center>   82</center></td>
+<td><center>    4001:16</center></td>
+<td><center>  124</center></td>
+<td><center>  161</center></td>
+<td><center>    1.86</center></td>
+<td><center>    2.41</center></td>
+<td><center>    43.5</center></td>
+<td><center> 2015</center></td>
+<td><center> 1785</center></td>
+<td><center>    30.2</center></td>
+<td><center>    26.8</center></td>
+<td><center>    53.0</center></td>
+<td><center> 2817</center></td>
+<td><center> 2570</center></td>
+<td><center>    42.2</center></td>
+<td><center>    38.5</center></td>
+<td><center>    52.3</center></td>
+<td><center> 3836</center></td>
+<td><center> 3471</center></td>
+<td><center>    57.5</center></td>
+<td><center>    52.0</center></td>
+<td><center>    52.5</center></td>
+<td><center>    6.15</center></td>
+<td><center>   90.98</center></td>
+<td><center>    97.1</center></td>
+<td><center>  33.9</center></td>
+<td><center>  30.1</center></td>
+<td><center>  36.0</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>   7</td>
+<td><strong>Chicago</strong></td>
+<td><center>   82</center></td>
+<td><center>    3980:06</center></td>
+<td><center>  150</center></td>
+<td><center>  127</center></td>
+<td><center>    2.26</center></td>
+<td><center>    1.91</center></td>
+<td><center>    54.2</center></td>
+<td><center> 2182</center></td>
+<td><center> 1980</center></td>
+<td><center>    32.9</center></td>
+<td><center>    29.8</center></td>
+<td><center>    52.4</center></td>
+<td><center> 2900</center></td>
+<td><center> 2607</center></td>
+<td><center>    43.7</center></td>
+<td><center>    39.3</center></td>
+<td><center>    52.7</center></td>
+<td><center> 4001</center></td>
+<td><center> 3459</center></td>
+<td><center>    60.3</center></td>
+<td><center>    52.1</center></td>
+<td><center>    53.6</center></td>
+<td><center>    6.87</center></td>
+<td><center>   93.59</center></td>
+<td><center>   100.5</center></td>
+<td><center>  35.9</center></td>
+<td><center>  29.7</center></td>
+<td><center>  34.4</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>   8</td>
+<td><strong>Colorado</strong></td>
+<td><center>   82</center></td>
+<td><center>    3903:51</center></td>
+<td><center>  152</center></td>
+<td><center>  156</center></td>
+<td><center>    2.34</center></td>
+<td><center>    2.40</center></td>
+<td><center>    49.4</center></td>
+<td><center> 1737</center></td>
+<td><center> 2086</center></td>
+<td><center>    26.7</center></td>
+<td><center>    32.1</center></td>
+<td><center>    45.4</center></td>
+<td><center> 2302</center></td>
+<td><center> 2925</center></td>
+<td><center>    35.4</center></td>
+<td><center>    45.0</center></td>
+<td><center>    44.0</center></td>
+<td><center> 3078</center></td>
+<td><center> 4039</center></td>
+<td><center>    47.3</center></td>
+<td><center>    62.1</center></td>
+<td><center>    43.2</center></td>
+<td><center>    8.75</center></td>
+<td><center>   92.52</center></td>
+<td><center>   101.3</center></td>
+<td><center>  29.9</center></td>
+<td><center>  35.4</center></td>
+<td><center>  34.6</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>   9</td>
+<td><strong>Columbus</strong></td>
+<td><center>   82</center></td>
+<td><center>    3869:47</center></td>
+<td><center>  143</center></td>
+<td><center>  166</center></td>
+<td><center>    2.22</center></td>
+<td><center>    2.57</center></td>
+<td><center>    46.3</center></td>
+<td><center> 1816</center></td>
+<td><center> 2042</center></td>
+<td><center>    28.2</center></td>
+<td><center>    31.7</center></td>
+<td><center>    47.1</center></td>
+<td><center> 2453</center></td>
+<td><center> 2760</center></td>
+<td><center>    38.0</center></td>
+<td><center>    42.8</center></td>
+<td><center>    47.1</center></td>
+<td><center> 3231</center></td>
+<td><center> 3598</center></td>
+<td><center>    50.1</center></td>
+<td><center>    55.8</center></td>
+<td><center>    47.3</center></td>
+<td><center>    7.87</center></td>
+<td><center>   91.87</center></td>
+<td><center>    99.7</center></td>
+<td><center>  30.1</center></td>
+<td><center>  33.8</center></td>
+<td><center>  36.0</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  10</td>
+<td><strong>Dallas</strong></td>
+<td><center>   82</center></td>
+<td><center>    3862:45</center></td>
+<td><center>  174</center></td>
+<td><center>  170</center></td>
+<td><center>    2.70</center></td>
+<td><center>    2.64</center></td>
+<td><center>    50.6</center></td>
+<td><center> 1984</center></td>
+<td><center> 1879</center></td>
+<td><center>    30.8</center></td>
+<td><center>    29.2</center></td>
+<td><center>    51.4</center></td>
+<td><center> 2915</center></td>
+<td><center> 2659</center></td>
+<td><center>    45.3</center></td>
+<td><center>    41.3</center></td>
+<td><center>    52.3</center></td>
+<td><center> 3965</center></td>
+<td><center> 3642</center></td>
+<td><center>    61.6</center></td>
+<td><center>    56.6</center></td>
+<td><center>    52.1</center></td>
+<td><center>    8.77</center></td>
+<td><center>   90.95</center></td>
+<td><center>    99.7</center></td>
+<td><center>  31.5</center></td>
+<td><center>  30.2</center></td>
+<td><center>  38.3</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  11</td>
+<td><strong>Detroit</strong></td>
+<td><center>   82</center></td>
+<td><center>    3826:16</center></td>
+<td><center>  132</center></td>
+<td><center>  126</center></td>
+<td><center>    2.07</center></td>
+<td><center>    1.98</center></td>
+<td><center>    51.2</center></td>
+<td><center> 1801</center></td>
+<td><center> 1704</center></td>
+<td><center>    28.2</center></td>
+<td><center>    26.7</center></td>
+<td><center>    51.4</center></td>
+<td><center> 2481</center></td>
+<td><center> 2289</center></td>
+<td><center>    38.9</center></td>
+<td><center>    35.9</center></td>
+<td><center>    52.0</center></td>
+<td><center> 3361</center></td>
+<td><center> 2924</center></td>
+<td><center>    52.7</center></td>
+<td><center>    45.9</center></td>
+<td><center>    53.5</center></td>
+<td><center>    7.33</center></td>
+<td><center>   92.61</center></td>
+<td><center>    99.9</center></td>
+<td><center>  35.1</center></td>
+<td><center>  28.7</center></td>
+<td><center>  36.2</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  12</td>
+<td><strong>Edmonton</strong></td>
+<td><center>   82</center></td>
+<td><center>    4066:27</center></td>
+<td><center>  131</center></td>
+<td><center>  197</center></td>
+<td><center>    1.93</center></td>
+<td><center>    2.91</center></td>
+<td><center>    39.9</center></td>
+<td><center> 1846</center></td>
+<td><center> 2008</center></td>
+<td><center>    27.2</center></td>
+<td><center>    29.6</center></td>
+<td><center>    47.9</center></td>
+<td><center> 2589</center></td>
+<td><center> 2849</center></td>
+<td><center>    38.2</center></td>
+<td><center>    42.0</center></td>
+<td><center>    47.6</center></td>
+<td><center> 3567</center></td>
+<td><center> 3853</center></td>
+<td><center>    52.6</center></td>
+<td><center>    56.9</center></td>
+<td><center>    48.1</center></td>
+<td><center>    7.10</center></td>
+<td><center>   90.19</center></td>
+<td><center>    97.3</center></td>
+<td><center>  31.3</center></td>
+<td><center>  31.4</center></td>
+<td><center>  37.3</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  13</td>
+<td><strong>Florida</strong></td>
+<td><center>   82</center></td>
+<td><center>    3930:17</center></td>
+<td><center>  144</center></td>
+<td><center>  141</center></td>
+<td><center>    2.20</center></td>
+<td><center>    2.15</center></td>
+<td><center>    50.5</center></td>
+<td><center> 1980</center></td>
+<td><center> 1847</center></td>
+<td><center>    30.2</center></td>
+<td><center>    28.2</center></td>
+<td><center>    51.7</center></td>
+<td><center> 2679</center></td>
+<td><center> 2573</center></td>
+<td><center>    40.9</center></td>
+<td><center>    39.3</center></td>
+<td><center>    51.0</center></td>
+<td><center> 3524</center></td>
+<td><center> 3346</center></td>
+<td><center>    53.8</center></td>
+<td><center>    51.1</center></td>
+<td><center>    51.3</center></td>
+<td><center>    7.27</center></td>
+<td><center>   92.37</center></td>
+<td><center>    99.6</center></td>
+<td><center>  32.7</center></td>
+<td><center>  31.7</center></td>
+<td><center>  35.7</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  14</td>
+<td><strong>Los Angeles</strong></td>
+<td><center>   82</center></td>
+<td><center>    3960:52</center></td>
+<td><center>  153</center></td>
+<td><center>  126</center></td>
+<td><center>    2.32</center></td>
+<td><center>    1.91</center></td>
+<td><center>    54.8</center></td>
+<td><center> 2030</center></td>
+<td><center> 1697</center></td>
+<td><center>    30.8</center></td>
+<td><center>    25.7</center></td>
+<td><center>    54.5</center></td>
+<td><center> 2909</center></td>
+<td><center> 2412</center></td>
+<td><center>    44.1</center></td>
+<td><center>    36.5</center></td>
+<td><center>    54.7</center></td>
+<td><center> 3905</center></td>
+<td><center> 3149</center></td>
+<td><center>    59.2</center></td>
+<td><center>    47.7</center></td>
+<td><center>    55.4</center></td>
+<td><center>    7.54</center></td>
+<td><center>   92.58</center></td>
+<td><center>   100.1</center></td>
+<td><center>  34.8</center></td>
+<td><center>  29.1</center></td>
+<td><center>  36.1</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  15</td>
+<td><strong>Minnesota</strong></td>
+<td><center>   82</center></td>
+<td><center>    3911:55</center></td>
+<td><center>  165</center></td>
+<td><center>  144</center></td>
+<td><center>    2.53</center></td>
+<td><center>    2.21</center></td>
+<td><center>    53.4</center></td>
+<td><center> 1939</center></td>
+<td><center> 1766</center></td>
+<td><center>    29.7</center></td>
+<td><center>    27.1</center></td>
+<td><center>    52.3</center></td>
+<td><center> 2691</center></td>
+<td><center> 2472</center></td>
+<td><center>    41.3</center></td>
+<td><center>    37.9</center></td>
+<td><center>    52.1</center></td>
+<td><center> 3578</center></td>
+<td><center> 3433</center></td>
+<td><center>    54.9</center></td>
+<td><center>    52.7</center></td>
+<td><center>    51.0</center></td>
+<td><center>    8.51</center></td>
+<td><center>   91.85</center></td>
+<td><center>   100.4</center></td>
+<td><center>  32.8</center></td>
+<td><center>  31.3</center></td>
+<td><center>  35.9</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  16</td>
+<td><strong>Montreal</strong></td>
+<td><center>   82</center></td>
+<td><center>    3932:52</center></td>
+<td><center>  145</center></td>
+<td><center>  121</center></td>
+<td><center>    2.21</center></td>
+<td><center>    1.85</center></td>
+<td><center>    54.5</center></td>
+<td><center> 1828</center></td>
+<td><center> 1915</center></td>
+<td><center>    27.9</center></td>
+<td><center>    29.2</center></td>
+<td><center>    48.8</center></td>
+<td><center> 2530</center></td>
+<td><center> 2649</center></td>
+<td><center>    38.6</center></td>
+<td><center>    40.4</center></td>
+<td><center>    48.9</center></td>
+<td><center> 3544</center></td>
+<td><center> 3762</center></td>
+<td><center>    54.1</center></td>
+<td><center>    57.4</center></td>
+<td><center>    48.5</center></td>
+<td><center>    7.93</center></td>
+<td><center>   93.68</center></td>
+<td><center>   101.6</center></td>
+<td><center>  30.1</center></td>
+<td><center>  34.0</center></td>
+<td><center>  35.9</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  17</td>
+<td><strong>Nashville</strong></td>
+<td><center>   82</center></td>
+<td><center>    3933:01</center></td>
+<td><center>  165</center></td>
+<td><center>  125</center></td>
+<td><center>    2.52</center></td>
+<td><center>    1.91</center></td>
+<td><center>    56.9</center></td>
+<td><center> 2042</center></td>
+<td><center> 1812</center></td>
+<td><center>    31.2</center></td>
+<td><center>    27.6</center></td>
+<td><center>    53.0</center></td>
+<td><center> 2824</center></td>
+<td><center> 2514</center></td>
+<td><center>    43.1</center></td>
+<td><center>    38.4</center></td>
+<td><center>    52.9</center></td>
+<td><center> 3830</center></td>
+<td><center> 3435</center></td>
+<td><center>    58.4</center></td>
+<td><center>    52.4</center></td>
+<td><center>    52.7</center></td>
+<td><center>    8.08</center></td>
+<td><center>   93.10</center></td>
+<td><center>   101.2</center></td>
+<td><center>  33.6</center></td>
+<td><center>  32.5</center></td>
+<td><center>  33.9</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  18</td>
+<td><strong>New Jersey</strong></td>
+<td><center>   82</center></td>
+<td><center>    3944:38</center></td>
+<td><center>  115</center></td>
+<td><center>  124</center></td>
+<td><center>    1.75</center></td>
+<td><center>    1.89</center></td>
+<td><center>    48.1</center></td>
+<td><center> 1597</center></td>
+<td><center> 1893</center></td>
+<td><center>    24.3</center></td>
+<td><center>    28.8</center></td>
+<td><center>    45.8</center></td>
+<td><center> 2217</center></td>
+<td><center> 2539</center></td>
+<td><center>    33.7</center></td>
+<td><center>    38.6</center></td>
+<td><center>    46.6</center></td>
+<td><center> 2969</center></td>
+<td><center> 3321</center></td>
+<td><center>    45.2</center></td>
+<td><center>    50.5</center></td>
+<td><center>    47.2</center></td>
+<td><center>    7.20</center></td>
+<td><center>   93.45</center></td>
+<td><center>   100.7</center></td>
+<td><center>  28.8</center></td>
+<td><center>  33.6</center></td>
+<td><center>  37.6</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  19</td>
+<td><strong>NY Islanders</strong></td>
+<td><center>   82</center></td>
+<td><center>    3962:36</center></td>
+<td><center>  167</center></td>
+<td><center>  156</center></td>
+<td><center>    2.53</center></td>
+<td><center>    2.36</center></td>
+<td><center>    51.7</center></td>
+<td><center> 2144</center></td>
+<td><center> 1828</center></td>
+<td><center>    32.5</center></td>
+<td><center>    27.7</center></td>
+<td><center>    54.0</center></td>
+<td><center> 2982</center></td>
+<td><center> 2532</center></td>
+<td><center>    45.2</center></td>
+<td><center>    38.3</center></td>
+<td><center>    54.1</center></td>
+<td><center> 4050</center></td>
+<td><center> 3629</center></td>
+<td><center>    61.3</center></td>
+<td><center>    54.9</center></td>
+<td><center>    52.7</center></td>
+<td><center>    7.79</center></td>
+<td><center>   91.47</center></td>
+<td><center>    99.3</center></td>
+<td><center>  33.4</center></td>
+<td><center>  30.2</center></td>
+<td><center>  36.4</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  20</td>
+<td><strong>NY Rangers</strong></td>
+<td><center>   82</center></td>
+<td><center>    4009:39</center></td>
+<td><center>  179</center></td>
+<td><center>  137</center></td>
+<td><center>    2.68</center></td>
+<td><center>    2.05</center></td>
+<td><center>    56.6</center></td>
+<td><center> 2025</center></td>
+<td><center> 1979</center></td>
+<td><center>    30.3</center></td>
+<td><center>    29.6</center></td>
+<td><center>    50.6</center></td>
+<td><center> 2729</center></td>
+<td><center> 2792</center></td>
+<td><center>    40.8</center></td>
+<td><center>    41.8</center></td>
+<td><center>    49.4</center></td>
+<td><center> 3638</center></td>
+<td><center> 3713</center></td>
+<td><center>    54.4</center></td>
+<td><center>    55.6</center></td>
+<td><center>    49.5</center></td>
+<td><center>    8.84</center></td>
+<td><center>   93.08</center></td>
+<td><center>   101.9</center></td>
+<td><center>  31.6</center></td>
+<td><center>  31.9</center></td>
+<td><center>  36.4</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  21</td>
+<td><strong>Ottawa</strong></td>
+<td><center>   82</center></td>
+<td><center>    3866:09</center></td>
+<td><center>  151</center></td>
+<td><center>  143</center></td>
+<td><center>    2.34</center></td>
+<td><center>    2.22</center></td>
+<td><center>    51.4</center></td>
+<td><center> 1884</center></td>
+<td><center> 2035</center></td>
+<td><center>    29.2</center></td>
+<td><center>    31.6</center></td>
+<td><center>    48.1</center></td>
+<td><center> 2585</center></td>
+<td><center> 2732</center></td>
+<td><center>    40.1</center></td>
+<td><center>    42.4</center></td>
+<td><center>    48.6</center></td>
+<td><center> 3583</center></td>
+<td><center> 3549</center></td>
+<td><center>    55.6</center></td>
+<td><center>    55.1</center></td>
+<td><center>    50.2</center></td>
+<td><center>    8.01</center></td>
+<td><center>   92.97</center></td>
+<td><center>   101.0</center></td>
+<td><center>  31.9</center></td>
+<td><center>  32.0</center></td>
+<td><center>  36.1</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  22</td>
+<td><strong>Philadelphia</strong></td>
+<td><center>   82</center></td>
+<td><center>    3930:51</center></td>
+<td><center>  132</center></td>
+<td><center>  135</center></td>
+<td><center>    2.01</center></td>
+<td><center>    2.06</center></td>
+<td><center>    49.4</center></td>
+<td><center> 1806</center></td>
+<td><center> 1915</center></td>
+<td><center>    27.6</center></td>
+<td><center>    29.2</center></td>
+<td><center>    48.5</center></td>
+<td><center> 2533</center></td>
+<td><center> 2649</center></td>
+<td><center>    38.7</center></td>
+<td><center>    40.4</center></td>
+<td><center>    48.9</center></td>
+<td><center> 3515</center></td>
+<td><center> 3614</center></td>
+<td><center>    53.7</center></td>
+<td><center>    55.2</center></td>
+<td><center>    49.3</center></td>
+<td><center>    7.31</center></td>
+<td><center>   92.95</center></td>
+<td><center>   100.3</center></td>
+<td><center>  33.3</center></td>
+<td><center>  31.8</center></td>
+<td><center>  34.9</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  23</td>
+<td><strong>Pittsburgh</strong></td>
+<td><center>   82</center></td>
+<td><center>    3861:17</center></td>
+<td><center>  145</center></td>
+<td><center>  130</center></td>
+<td><center>    2.25</center></td>
+<td><center>    2.02</center></td>
+<td><center>    52.7</center></td>
+<td><center> 1953</center></td>
+<td><center> 1757</center></td>
+<td><center>    30.3</center></td>
+<td><center>    27.3</center></td>
+<td><center>    52.6</center></td>
+<td><center> 2662</center></td>
+<td><center> 2376</center></td>
+<td><center>    41.4</center></td>
+<td><center>    36.9</center></td>
+<td><center>    52.8</center></td>
+<td><center> 3595</center></td>
+<td><center> 3213</center></td>
+<td><center>    55.9</center></td>
+<td><center>    49.9</center></td>
+<td><center>    52.8</center></td>
+<td><center>    7.42</center></td>
+<td><center>   92.60</center></td>
+<td><center>   100.0</center></td>
+<td><center>  33.6</center></td>
+<td><center>  28.3</center></td>
+<td><center>  38.0</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  24</td>
+<td><strong>San Jose</strong></td>
+<td><center>   82</center></td>
+<td><center>    3968:06</center></td>
+<td><center>  137</center></td>
+<td><center>  155</center></td>
+<td><center>    2.07</center></td>
+<td><center>    2.34</center></td>
+<td><center>    46.9</center></td>
+<td><center> 1955</center></td>
+<td><center> 1905</center></td>
+<td><center>    29.6</center></td>
+<td><center>    28.8</center></td>
+<td><center>    50.6</center></td>
+<td><center> 2814</center></td>
+<td><center> 2684</center></td>
+<td><center>    42.5</center></td>
+<td><center>    40.6</center></td>
+<td><center>    51.2</center></td>
+<td><center> 3930</center></td>
+<td><center> 3706</center></td>
+<td><center>    59.4</center></td>
+<td><center>    56.0</center></td>
+<td><center>    51.5</center></td>
+<td><center>    7.01</center></td>
+<td><center>   91.86</center></td>
+<td><center>    98.9</center></td>
+<td><center>  31.6</center></td>
+<td><center>  33.4</center></td>
+<td><center>  35.0</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  25</td>
+<td><strong>St. Louis</strong></td>
+<td><center>   82</center></td>
+<td><center>    3938:12</center></td>
+<td><center>  161</center></td>
+<td><center>  133</center></td>
+<td><center>    2.45</center></td>
+<td><center>    2.03</center></td>
+<td><center>    54.8</center></td>
+<td><center> 1967</center></td>
+<td><center> 1741</center></td>
+<td><center>    30.0</center></td>
+<td><center>    26.5</center></td>
+<td><center>    53.0</center></td>
+<td><center> 2747</center></td>
+<td><center> 2430</center></td>
+<td><center>    41.9</center></td>
+<td><center>    37.0</center></td>
+<td><center>    53.1</center></td>
+<td><center> 3603</center></td>
+<td><center> 3359</center></td>
+<td><center>    54.9</center></td>
+<td><center>    51.2</center></td>
+<td><center>    51.8</center></td>
+<td><center>    8.19</center></td>
+<td><center>   92.36</center></td>
+<td><center>   100.5</center></td>
+<td><center>  32.4</center></td>
+<td><center>  32.9</center></td>
+<td><center>  34.7</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  26</td>
+<td><strong>Tampa Bay</strong></td>
+<td><center>   82</center></td>
+<td><center>    3833:36</center></td>
+<td><center>  176</center></td>
+<td><center>  134</center></td>
+<td><center>    2.75</center></td>
+<td><center>    2.10</center></td>
+<td><center>    56.8</center></td>
+<td><center> 1949</center></td>
+<td><center> 1670</center></td>
+<td><center>    30.5</center></td>
+<td><center>    26.1</center></td>
+<td><center>    53.9</center></td>
+<td><center> 2661</center></td>
+<td><center> 2346</center></td>
+<td><center>    41.6</center></td>
+<td><center>    36.7</center></td>
+<td><center>    53.1</center></td>
+<td><center> 3574</center></td>
+<td><center> 3166</center></td>
+<td><center>    55.9</center></td>
+<td><center>    49.6</center></td>
+<td><center>    53.0</center></td>
+<td><center>    9.03</center></td>
+<td><center>   91.98</center></td>
+<td><center>   101.0</center></td>
+<td><center>  33.4</center></td>
+<td><center>  27.8</center></td>
+<td><center>  38.8</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  27</td>
+<td><strong>Toronto</strong></td>
+<td><center>   82</center></td>
+<td><center>    3855:10</center></td>
+<td><center>  136</center></td>
+<td><center>  171</center></td>
+<td><center>    2.12</center></td>
+<td><center>    2.66</center></td>
+<td><center>    44.3</center></td>
+<td><center> 1810</center></td>
+<td><center> 2095</center></td>
+<td><center>    28.2</center></td>
+<td><center>    32.6</center></td>
+<td><center>    46.4</center></td>
+<td><center> 2532</center></td>
+<td><center> 2951</center></td>
+<td><center>    39.4</center></td>
+<td><center>    45.9</center></td>
+<td><center>    46.2</center></td>
+<td><center> 3361</center></td>
+<td><center> 3878</center></td>
+<td><center>    52.3</center></td>
+<td><center>    60.4</center></td>
+<td><center>    46.4</center></td>
+<td><center>    7.51</center></td>
+<td><center>   91.84</center></td>
+<td><center>    99.4</center></td>
+<td><center>  28.5</center></td>
+<td><center>  35.5</center></td>
+<td><center>  36.0</center></td>
+</tr>
+<tr bgcolor="#ddddee"> <td>  28</td>
+<td><strong>Vancouver</strong></td>
+<td><center>   82</center></td>
+<td><center>    3892:48</center></td>
+<td><center>  148</center></td>
+<td><center>  158</center></td>
+<td><center>    2.28</center></td>
+<td><center>    2.44</center></td>
+<td><center>    48.4</center></td>
+<td><center> 1911</center></td>
+<td><center> 1882</center></td>
+<td><center>    29.5</center></td>
+<td><center>    29.0</center></td>
+<td><center>    50.4</center></td>
+<td><center> 2614</center></td>
+<td><center> 2585</center></td>
+<td><center>    40.3</center></td>
+<td><center>    39.8</center></td>
+<td><center>    50.3</center></td>
+<td><center> 3475</center></td>
+<td><center> 3545</center></td>
+<td><center>    53.6</center></td>
+<td><center>    54.6</center></td>
+<td><center>    49.5</center></td>
+<td><center>    7.74</center></td>
+<td><center>   91.60</center></td>
+<td><center>    99.3</center></td>
+<td><center>  31.8</center></td>
+<td><center>  31.5</center></td>
+<td><center>  36.7</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  29</td>
+<td><strong>Washington</strong></td>
+<td><center>   82</center></td>
+<td><center>    3893:24</center></td>
+<td><center>  146</center></td>
+<td><center>  133</center></td>
+<td><center>    2.25</center></td>
+<td><center>    2.05</center></td>
+<td><center>    52.3</center></td>
+<td><center> 1814</center></td>
+<td><center> 1760</center></td>
+<td><center>    28.0</center></td>
+<td><center>    27.1</center></td>
+<td><center>    50.8</center></td>
+<td><center> 2606</center></td>
+<td><center> 2450</center></td>
+<td><center>    40.2</center></td>
+<td><center>    37.8</center></td>
+<td><center>    51.5</center></td>
+<td><center> 3612</center></td>
+<td><center> 3419</center></td>
+<td><center>    55.7</center></td>
+<td><center>    52.7</center></td>
+<td><center>    51.4</center></td>
+<td><center>    8.05</center></td>
+<td><center>   92.44</center></td>
+<td><center>   100.5</center></td>
+<td><center>  33.4</center></td>
+<td><center>  29.8</center></td>
+<td><center>  36.8</center></td>
+</tr>
+<tr bgcolor="#eedddd"> <td>  30</td>
+<td><strong>Winnipeg</strong></td>
+<td><center>   82</center></td>
+<td><center>    3773:36</center></td>
+<td><center>  143</center></td>
+<td><center>  123</center></td>
+<td><center>    2.27</center></td>
+<td><center>    1.96</center></td>
+<td><center>    53.8</center></td>
+<td><center> 1817</center></td>
+<td><center> 1692</center></td>
+<td><center>    28.9</center></td>
+<td><center>    26.9</center></td>
+<td><center>    51.8</center></td>
+<td><center> 2550</center></td>
+<td><center> 2356</center></td>
+<td><center>    40.5</center></td>
+<td><center>    37.5</center></td>
+<td><center>    52.0</center></td>
+<td><center> 3501</center></td>
+<td><center> 3166</center></td>
+<td><center>    55.7</center></td>
+<td><center>    50.3</center></td>
+<td><center>    52.5</center></td>
+<td><center>    7.87</center></td>
+<td><center>   92.73</center></td>
+<td><center>   100.6</center></td>
+<td><center>  33.2</center></td>
+<td><center>  30.9</center></td>
+<td><center>  36.0</center></td>
+</tr>
+</table>
